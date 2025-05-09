@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  yolo-export:
+    image: allanktoradex/yolo11-export
+    container_name: yolo11-export
+    privileged: true
+    network_mode: host
+    stdin_open: true
+    tty: true
+    volumes:
+      - /home/allan/yolo11-outside:/app/outside
+    restart: unless-stopped
+    command: bash -c "cp -r /app/export/* /app/outside/ 2>/dev/null || true && cd /app/outside && exec python3"
+
