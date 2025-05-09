@@ -1,0 +1,7 @@
+ai_edge_litert==1.2.0
+torch==2.6.0 # used to crop masks (maybe can be replaced by numpy)
+torchvision==0.21.0 # used for NMS (maybe can be replaced by cv2.dnn.nms)
+opencv-python==4.11.0.86
+numpy==2.0.2
+Pillow==11.2.1
+PyYAML==6.0.2
