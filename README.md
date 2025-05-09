@@ -1,11 +1,11 @@
-# yolo11
-Function to use [Ultralytics](https://github.com/ultralytics/ultralytics/tree/main) yolo11.
+# yolo11-seg
+Function to use [Ultralytics](https://github.com/ultralytics/ultralytics/tree/main) yolo11-seg.
 
 ## Init
 
 ### Clone this repo.
 ```bash
-git clone https://github.com/AllanKamimura/yolo11
+git clone https://github.com/AllanKamimura/yolo11-seg
 cd yolo11
 ```
 
